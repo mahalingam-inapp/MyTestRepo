@@ -10,7 +10,6 @@ namespace Example
         static async Task Main(string[] args)
         {
             // Create an instance of HttpClient
-            var client = new HttpClient();
 
             // Make a GET request to the API endpoint
             var response = await client.GetAsync("https://api.example.com/data");
